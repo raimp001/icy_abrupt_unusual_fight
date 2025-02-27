@@ -1,4 +1,4 @@
-.env
+# .env (removed to allow .env file to be pushed for submission)
 *.avm
 *.prover
 *.verifier
