@@ -1,0 +1,6 @@
+// Input for create_bill function in healthcare_billing/src/main.leo
+[create_bill]
+bill_id: u64 = 1001u64;
+patient_id: u64 = 12345u64;
+amount: u64 = 500000u64; // $500.00 (in cents)
+service_code: u64 = 9001u64; // Example service code 

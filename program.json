@@ -1,0 +1,6 @@
+{
+    "program": "healthcare_billing.aleo",
+    "version": "1.0.0",
+    "description": "A healthcare billing system for managing patient records, medical bills, and payments on the Aleo blockchain.",
+    "license": "MIT"
+}

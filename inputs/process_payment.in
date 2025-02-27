@@ -1,0 +1,13 @@
+// Input for process_payment function in healthcare_billing/src/main.leo
+[process_payment]
+payment_id: u64 = 5001u64;
+bill_id: u64 = 1001u64;
+bill: MedicalBill = MedicalBill {
+    bill_id: 1001u64,
+    patient_id: 12345u64,
+    amount: 500000u64,
+    service_code: 9001u64,
+    status: 0u8
+};
+amount: u64 = 300000u64; // $300.00 (in cents)
+timestamp: u64 = 1677511234u64; // Unix timestamp 

@@ -1,0 +1,4 @@
+// Input for register_patient function in healthcare_billing/src/main.leo
+[register_patient]
+patient_id: u64 = 12345u64;
+insurance_id: u64 = 67890u64; 

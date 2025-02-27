@@ -1,0 +1,10 @@
+// Input for resolve_dispute function in healthcare_billing/src/main.leo
+[resolve_dispute]
+bill: MedicalBill = MedicalBill {
+    bill_id: 1001u64,
+    patient_id: 12345u64,
+    amount: 500000u64,
+    service_code: 9001u64,
+    status: 3u8 // Disputed
+};
+new_amount: u64 = 400000u64; // $400.00 (in cents) - adjusted after dispute 
